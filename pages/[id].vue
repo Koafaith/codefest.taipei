@@ -8,6 +8,10 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import type { PastPhoto, PastWinningTeam } from '~/interfaces/past.interface';
 import type { Sponsor } from '~/interfaces/sponsor.interface';
 
+import defaultDesktopLeft from '@/assets/images/hero-banner-tpe.svg';
+import defaultDesktopRight from '@/assets/images/hero-banner-ntpc.svg';
+import defaultMobile from '@/assets/images/hero-banner-tp.svg';
+
 const runtimeConfig = useRuntimeConfig();
 const { tm } = useI18n();
 
@@ -67,6 +71,17 @@ watch(
   },
   { immediate: true }
 );
+
+const heroBannerImages = computed(() => {
+  const banner = currentActivity.value?.hero_banner;
+  const resolve = (path?: string) =>
+    path ? (path.includes('https') ? path : runtimeConfig.app.baseURL + path) : '';
+  return {
+    desktopLeft: resolve(banner?.desktop_left_image) || defaultDesktopLeft,
+    desktopRight: resolve(banner?.desktop_right_image) || defaultDesktopRight,
+    mobile: resolve(banner?.mobile_image) || defaultMobile,
+  };
+});
 
 /** 參賽回顧 */
 const winningTeamList = computed<PastWinningTeam[]>(() => {
@@ -184,6 +199,11 @@ onUnmounted(() => {
       <div class="lg:border-0 border border-white flex flex-1">
         <div
           class="lg:border-0 m-1 border border-white text-white flex-1 flex items-center justify-center text-center bg-tp"
+          :style="{
+            '--hero-desktop-left': `url('${heroBannerImages.desktopLeft}')`,
+            '--hero-desktop-right': `url('${heroBannerImages.desktopRight}')`,
+            '--hero-mobile': `url('${heroBannerImages.mobile}')`,
+          }"
         >
           <!-- desktop noise -->
           <img
@@ -1178,20 +1198,27 @@ onUnmounted(() => {
 
 .bg-tp {
   @apply relative;
-  &::before {
-    content: url('@/assets/images/hero-banner-tpe.svg');
-    background-repeat: no-repeat;
+  &::before,
+  &::after {
+    content: '';
     position: absolute;
-    left: 0;
     bottom: 0;
+    width: 427px;
+    height: 361px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    background-image: var(--hero-desktop-left);
   }
 
   &::after {
-    content: url('@/assets/images/hero-banner-ntpc.svg');
-    background-repeat: no-repeat;
-    position: absolute;
     right: 0;
-    bottom: 0;
+    background-image: var(--hero-desktop-right);
   }
 }
 @media (max-width: 1024px) {
@@ -1201,7 +1228,7 @@ onUnmounted(() => {
   }
 
   .bg-tp {
-    background-image: url('@/assets/images/hero-banner-tp.svg');
+    background-image: var(--hero-mobile);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;

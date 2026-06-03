@@ -32,6 +32,9 @@ export interface HistoryNavigation {
 
 interface HeroBanner {
   section_title: string;
+  desktop_left_image?: string;
+  desktop_right_image?: string;
+  mobile_image?: string;
 }
 
 interface Past {
