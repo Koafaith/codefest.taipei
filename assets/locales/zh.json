@@ -52,7 +52,10 @@
                     "link": "",
                     "available": true,
                     "hero_banner": {
-                        "section_title": "2025臺北秋季程式設計節\n城市通微服務大黑客松"
+                        "section_title": "2025臺北秋季程式設計節\n城市通微服務大黑客松",
+                        "desktop_left_image": "images/2025-fall/25_WebL_427x360.png",
+                        "desktop_right_image": "images/2025-fall/25_WebR_427x360.png",
+                        "mobile_image": "images/2025-fall/25_Mobile_327x276.png"
                     },
                     "past": {
                         "available": true,
