@@ -1,6 +1,6 @@
 {
     "index": {
-        "title": "敬請期待2026臺北程式設計節",
+        "title": "敬請期待2026雙北程式設計節",
         "activities": [
             {
                 "name": "秋季",
@@ -13,6 +13,13 @@
                 "name": "臺北生成藝術節",
                 "icon_type": "loading",
                 "date": "COMING SOON",
+                "available": true,
+                "link": ""
+            },
+            {
+                "name": "春季",
+                "icon_type": "smile",
+                "date": "05/02-05/03",
                 "available": true,
                 "link": ""
             }
