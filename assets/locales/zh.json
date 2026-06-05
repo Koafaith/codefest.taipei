@@ -8,20 +8,6 @@
                 "date": "COMING SOON",
                 "available": true,
                 "link": ""
-            },
-            {
-                "name": "臺北生成藝術節",
-                "icon_type": "loading",
-                "date": "COMING SOON",
-                "available": true,
-                "link": ""
-            },
-            {
-                "name": "春季",
-                "icon_type": "smile",
-                "date": "05/02-05/03",
-                "available": true,
-                "link": ""
             }
         ]
     },
