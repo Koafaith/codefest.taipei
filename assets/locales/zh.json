@@ -8,6 +8,13 @@
                 "date": "COMING SOON",
                 "available": true,
                 "link": ""
+            },
+            {
+                "name": "2026雙北程式設計節",
+                "icon_type": "smile",
+                "date": "05/02-05/03",
+                "available": true,
+                "link": "https://codefest.taipei/2026-spring/"
             }
         ]
     },
