@@ -935,13 +935,13 @@ onUnmounted(() => {
                         </thead>
                         <tbody>
                           <tr v-for="(item, index) in activeSchedule.schedule" :key="index">
-                            <td v-if="item.col1" class="p-2 whitespace-pre-wrap">
+                            <td v-if="item.col1 !== undefined" class="p-2 whitespace-pre-wrap">
                               {{ item.col1 }}
                             </td>
-                            <td v-if="item.col2" class="p-2 whitespace-pre-wrap">
+                            <td v-if="item.col2 !== undefined" class="p-2 whitespace-pre-wrap">
                               {{ item.col2 }}
                             </td>
-                            <td v-if="item.col3" class="p-2 whitespace-pre-wrap">
+                            <td v-if="item.col3 !== undefined" class="p-2 whitespace-pre-wrap">
                               {{ item.col3 }}
                             </td>
                           </tr>
@@ -1026,13 +1026,13 @@ onUnmounted(() => {
                           </thead>
                           <tbody>
                             <tr v-for="(item, itemIndex) in tab.schedule" :key="itemIndex">
-                              <td v-if="item.col1" class="p-2 whitespace-pre-wrap">
+                              <td v-if="item.col1 !== undefined" class="p-2 whitespace-pre-wrap">
                                 {{ item.col1 }}
                               </td>
-                              <td v-if="item.col2" class="p-2 whitespace-pre-wrap">
+                              <td v-if="item.col2 !== undefined" class="p-2 whitespace-pre-wrap">
                                 {{ item.col2 }}
                               </td>
-                              <td v-if="item.col3" class="p-2 whitespace-pre-wrap">
+                              <td v-if="item.col3 !== undefined" class="p-2 whitespace-pre-wrap">
                                 {{ item.col3 }}
                               </td>
                             </tr>
