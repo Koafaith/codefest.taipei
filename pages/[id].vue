@@ -189,7 +189,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="lg:mt-[100px] mt-[80px]">
+  <div class="lg:mt-[100px] mt-[80px] container mx-auto">
     <OrganismLayoutHeader
       class="lg:h-[100px] h-[80px] fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300"
     />

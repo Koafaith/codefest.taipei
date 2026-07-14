@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const route = useRoute();
 
-// 定義需要顯示 NTPC logo 的路徑
-const NTPC_LOGO_PATHS = ['2025-spring'];
+// 定義需要顯示 NTPC logo 的路徑（雙北活動）
+const NTPC_LOGO_PATHS = ['2025-spring', '2026-spring'];
 
 const isShowNtpcLogo = computed(() => {
   return NTPC_LOGO_PATHS.includes(route.params.id as string);
