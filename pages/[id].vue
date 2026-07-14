@@ -1318,6 +1318,7 @@ onUnmounted(() => {
 
     img {
       max-width: none; /* 移除寬度限制 */
+      height: 100%; /* 讓圖片填滿容器高度 */
       object-fit: contain; /* 保持比例 */
     }
   }
