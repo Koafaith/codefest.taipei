@@ -2070,6 +2070,593 @@
             ],
             "taipei_and_new_taipei_code_fest": [
                 {
+                    "id": "2026-spring",
+                    "name": "2026.春季雙北城市儀表板大黑客松",
+                    "date": "2026-05-02~2026-05-03",
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2026雙北程式設計節\n城市儀表板大黑客松",
+                        "desktop_left_image": "images/2026-spring/大網-左_427x360.png",
+                        "desktop_right_image": "images/2026-spring/大網-右_438x360.png",
+                        "mobile_image": "images/2026-spring/小網-banner.png"
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 1,
+                                    "ranking": "第一名",
+                                    "team_name": "報報王",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%80%E5%90%8D.jpg",
+                                    "team_members": "國立政治大學\n中原大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "智慧通勤"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本專案以「通勤」為主、「住房」為輔，將居住與通勤成本具象化。透過多項雙北運具使用統計與信令資料，分析跨區通勤樣貌；結合多種租金資訊、大眾運輸等時圈、社會住宅進度與住宅補貼資料，協助市民在通勤時間與居住成本間取得平衡，也可供政府作城市治理決策參考。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/tzuuuu/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/tzuuuu/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>新北市歷年住宅補貼受理情形統計表<br/><a href='https://data.ntpc.gov.tw/datasets/502d1589-3693-4f2c-9c05-22e3ec37330d' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/502d1589-3693-4f2c-9c05-22e3ec37330d</a></li><li>臺北市歷年住宅補貼受理情形統計表<br/><a href='https://data.taipei/dataset/detail?id=6297943a-1e71-480d-967c-635855df66fe' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=6297943a-1e71-480d-967c-635855df66fe</a></li><li>租金統計資訊 | 內政部 不動產資訊平台<br/><a href='https://pip.moi.gov.tw/Publicize/Info/E1080' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://pip.moi.gov.tw/Publicize/Info/E1080</a></li><li>112年11月行政區電信信令人口統計資料_鄉鎮市區<br/><a href='https://segis.moi.gov.tw/STATCloud/QueryInterfaceView?COL=zVTg8Fn91RUFg2R9uBdHTA%3d%3d' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://segis.moi.gov.tw/STATCloud/QueryInterfaceView?COL=zVTg8Fn91RUFg2R9uBdHTA%3d%3d</a></li><li>臺北市社宅<br/><a href='https://pip.moi.gov.tw/V3/B/SCRB0505.aspx?city=%E8%87%BA%E5%8C%97%E5%B8%82' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://pip.moi.gov.tw/V3/B/SCRB0505.aspx?city=%E8%87%BA%E5%8C%97%E5%B8%82</a></li><li>新北市社宅<br/><a href='https://pip.moi.gov.tw/V3/B/SCRB0505.aspx?city=%E6%96%B0%E5%8C%97%E5%B8%82' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://pip.moi.gov.tw/V3/B/SCRB0505.aspx?city=%E6%96%B0%E5%8C%97%E5%B8%82</a></li><li>租金查詢系統 | 內政部<br/><a href='https://moisagis.moi.gov.tw/rent/index.html' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://moisagis.moi.gov.tw/rent/index.html</a></li><li>108 年雙北市民眾日常使用運具狀況調查 【摘要分析】<br/><a href='https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvMzkwL3JlbGZpbGUvNDMyNzMvODMzMDE4MS83Y2QzNzRlMy02NTNhLTQwNzYtOTY5Mi1mZGEwY2JlMjJiNWUucGRm&n=MTA45bm06ZuZ5YyX5biC5rCR55y%2b5pel5bi46YGL5YW35L2%2f55So54uA5rOBX%2baRmOimgeWIhuaekC5wZGY%3d&icon=.pdf' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvMzkwL3JlbGZpbGUvNDMyNzMvODMzMDE4MS83Y2QzNzRlMy02NTNhLTQwNzYtOTY5Mi1mZGEwY2JlMjJiNWUucGRm&n=MTA45bm06ZuZ5YyX5biC5rCR55y%2b5pel5bi46YGL5YW35L2%2f55So54uA5rOBX%2baRmOimgeWIhuaekC5wZGY%3d&icon=.pdf</a></li><li>台北地政找房+、捷運房價租金API<br/><a href='https://househunt.land.gov.taipei/app/stationlist' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://househunt.land.gov.taipei/app/stationlist</a></li><li>市區公車資料（雙北路線圖資、路線歷史資料、站牌歷史資料、路線班表歷史資料、站間旅行時間資訊(歷史推估)）<br/><a href='https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/CityBus,https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Estimation' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/CityBus,https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Estimation</a></li><li>捷運資料（路線圖資、路線車站基本資料、站別時刻表、站間運行時間、發車班距頻率）<br/><a href='https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Metro' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Metro</a></li><li>鐵路資料（路線圖資、車站基本資料、路線車站基本資料、定期車次資料、定期時刻表、路線車站基本資料）<br/><a href='https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Metro' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Metro</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%80%E5%90%8D.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第二名",
+                                    "team_name": "Cashifa",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg",
+                                    "team_members": "國立臺北科技大學\n中國信託綜合證券\n華碩電腦",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "食安健康"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本作品整合雙北13項食安組件，以農場到餐桌的路徑建構「餐飲、供應鏈、監管、健康」四層架構，串聯食品安全鏈。並延伸加分題，針對政府、店家與消費者三端需求設計功能，協助安心選擇、降低風險與精準決策。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/Ynn622/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/Ynn622/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>中央政府食藥署-非登不可（合法餐飲廠商登記平台）<br/><a href='https://fadenbook.fda.gov.tw/pub/search-Vendor-County.aspx' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://fadenbook.fda.gov.tw/pub/search-Vendor-County.aspx</a></li><li>中央政府食藥署-非追不可（食品追溯追蹤管理系統）-</li><li>https://ftracebook.fda.gov.tw</li><li>台北市政府衛生局-臺北市通過餐飲衛生管理分級評核業者<br/><a href='https://data.taipei/dataset/detail?id=59579c19-a561-4564-8c0f-545bfb32c0f6' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=59579c19-a561-4564-8c0f-545bfb32c0f6</a></li><li>衛福部食品藥物管理署-餐飲業優良業者名單資料集<br/><a href='https://data.gov.tw/dataset/8454' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/8454</a></li><li>新北食材登錄平台<br/><a href='https://foodtracer.health.ntpc.gov.tw/w/foodtracer/FoodAward' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://foodtracer.health.ntpc.gov.tw/w/foodtracer/FoodAward</a></li><li>新北食材登錄平台<br/><a href='https://data.taipei/dataset/detail?id=40900e11-3002-4c9b-9e23-aa3b72e3d46e' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=40900e11-3002-4c9b-9e23-aa3b72e3d46e</a></li><li>台北市產業局市場處-臺北市各區公有零售市(商)場攤位數<br/><a href='https://data.taipei/dataset/detail?id=f490476d-d156-4492-a463-cf3405de3b55' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=f490476d-d156-4492-a463-cf3405de3b55</a></li><li>新北市政府經濟發展局 -新北市公有市場及超市清冊<br/><a href='https://data.ntpc.gov.tw/datasets/785be91a-caaf-4e1c-91d6-f7d616d31a45' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/785be91a-caaf-4e1c-91d6-f7d616d31a45</a></li><li>台北市政府主計處-臺北市主要死因死亡率<br/><a href='https://data.taipei/dataset/detail?id=62e43153-71d3-4119-bfa3-5708721a12af' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=62e43153-71d3-4119-bfa3-5708721a12af</a></li><li>新北市政府主計處-死亡人數—主要死因<br/><a href='https://data.ntpc.gov.tw/datasets/e490f906-93f0-4fc3-b5b3-fe34fb31d1db' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/e490f906-93f0-4fc3-b5b3-fe34fb31d1db</a></li><li>台灣自來水公司-平均水質<br/><a href='https://www.water.gov.tw/ch/WaterQuality?nodeId=4631' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.water.gov.tw/ch/WaterQuality?nodeId=4631</a></li><li>台北市政府主計處-臺北自來水水質檢驗(淨水場清水水質)<br/><a href='https://data.taipei/dataset/detail?id=9626c65d-8fe7-45bb-bbe2-7439bed81010' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=9626c65d-8fe7-45bb-bbe2-7439bed81010</a></li><li>台北市政府衛生局-臺北市健康服務中心<br/><a href='https://data.gov.tw/dataset/121146' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/121146</a></li><li>新北市政府衛生局-新北各區衛生所<br/><a href='https://data.gov.tw/dataset/125693' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/125693</a></li><li>台北市政府衛生局-台北食藥妝網路地圖<br/><a href='https://imap.health.gov.taipei/Index.aspx' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://imap.health.gov.taipei/Index.aspx</a></li><li>台北市政府主計處-臺北市食品衛生管理工作<br/><a href='https://data.gov.tw/dataset/131026' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/131026</a></li><li>台北市政府衛生局-臺北市衛生局食品抽驗不合格清冊<br/><a href='https://data.taipei/dataset/detail?id=09a917a0-0fb5-47e1-957c-5f1268fba517' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=09a917a0-0fb5-47e1-957c-5f1268fba517</a></li><li>新北食品查驗地圖<br/><a href='https://fsmc.ntpc.gov.tw/DigitalMap/PublicWebsite' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://fsmc.ntpc.gov.tw/DigitalMap/PublicWebsite</a></li><li>台北市政府衛生局-臺北市急診醫學科醫療機構<br/><a href='https://data.taipei/dataset/detail?id=73452edf-a60f-4f47-86d0-d4295e4fa79d' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=73452edf-a60f-4f47-86d0-d4295e4fa79d</a></li><li>台北市政府衛生局-臺北市家庭醫學科醫療機構<br/><a href='https://data.taipei/dataset/detail?id=34e855c7-7808-46d2-b9b1-f7244fe2b9b5' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=34e855c7-7808-46d2-b9b1-f7244fe2b9b5</a></li><li>台北市政府衛生局-臺北市內科醫療機構<br/><a href='https://data.taipei/dataset/detail?id=dbb54bf8-74a8-475d-ae88-a0ec4262c39a' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=dbb54bf8-74a8-475d-ae88-a0ec4262c39a</a></li><li>台北市政府衛生局-臺北市西醫一般科醫療機構<br/><a href='https://data.taipei/dataset/detail?id=dfd0f10f-0f4d-4c92-96bc-997e7596297d' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=dfd0f10f-0f4d-4c92-96bc-997e7596297d</a></li><li>台北市政府衛生局-臺北市藥局<br/><a href='https://data.taipei/dataset/detail?id=6fa3ed67-e60e-44d9-a366-ce7008e322de' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=6fa3ed67-e60e-44d9-a366-ce7008e322de</a></li><li>新北市政府衛生局-新北市急診學學科醫療機構<br/><a href='https://staging.data.ntpc.gov.tw/datasets/7e4a9359-61dd-4a3c-9ebc-8e2b0b380a13' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/7e4a9359-61dd-4a3c-9ebc-8e2b0b380a13</a></li><li>新北市政府衛生局-新北市家庭醫學科醫療機構<br/><a href='https://staging.data.ntpc.gov.tw/datasets/9e1c1aba-4e0b-4d5a-8755-efa1f09abe65' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/9e1c1aba-4e0b-4d5a-8755-efa1f09abe65</a></li><li>新北市政府衛生局-新北市內科醫療機構<br/><a href='https://staging.data.ntpc.gov.tw/datasets/e8244d31-e0e5-459d-87ba-3c188706fbee' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/e8244d31-e0e5-459d-87ba-3c188706fbee</a></li><li>新北市政府衛生局-新北市西醫一般科醫療機構<br/><a href='https://staging.data.ntpc.gov.tw/datasets/ec49095f-7383-4008-ba4f-3208068ceaa8' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/ec49095f-7383-4008-ba4f-3208068ceaa8</a></li><li>新北市政府衛生局-新北市健保特約藥局名單<br/><a href='https://staging.data.ntpc.gov.tw/datasets/fdbefc45-7005-49ab-a56d-41881e435dc2' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/fdbefc45-7005-49ab-a56d-41881e435dc2</a></li><li>新北市政府衛生局-新北市非健保特約藥局名單<br/><a href='https://staging.data.ntpc.gov.tw/datasets/f379e6dc-5a60-49a7-a47b-d3887566e157' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://staging.data.ntpc.gov.tw/datasets/f379e6dc-5a60-49a7-a47b-d3887566e157</a></li><li>台北市政府產業局-臺北市有機農場<br/><a href='https://data.taipei/dataset/detail?id=32aea2da-14a7-47b6-a687-57e29c1ad4a7' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=32aea2da-14a7-47b6-a687-57e29c1ad4a7</a></li><li>新北市政府農業局-新北市有機農場<br/><a href='https://data.ntpc.gov.tw/datasets/fc30f585-66d9-4233-a65e-c650d177ebfe' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/fc30f585-66d9-4233-a65e-c650d177ebfe</a></li><li>衛福部食品衛生管理工作－按縣市別分<br/><a href='https://dep.mohw.gov.tw/DOS/fp-5301-62356-113.html' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://dep.mohw.gov.tw/DOS/fp-5301-62356-113.html</a></li><li>衛福部疾病管制署-健保門診及住院就診人次統計-腹瀉<br/><a href='https://od.cdc.gov.tw/eic/NHI_Diarrhea.csv' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://od.cdc.gov.tw/eic/NHI_Diarrhea.csv</a></li><li>衛福部疾病管制署-急診傳染病監測統計-急性腹瀉<br/><a href='https://od.cdc.gov.tw/eic/RODS_AcuteDiarrhea.csv' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://od.cdc.gov.tw/eic/RODS_AcuteDiarrhea.csv</a></li><li>農業部-產銷履歷<br/><a href='https://data.moa.gov.tw/api.aspx#operations-tag-%E7%94%A2%E9%8A%B7%E5%B1%A5%E6%AD%B7' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.moa.gov.tw/api.aspx#operations-tag-%E7%94%A2%E9%8A%B7%E5%B1%A5%E6%AD%B7</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "第三名",
+                                    "team_name": "古鍾趙黃林",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%89%E5%90%8D.jpg",
+                                    "team_members": "國立中央大學\n國立中興大學\n國立嘉義大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "食安健康"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "針對雙北校園食安缺口，本提案打造創新監測儀表板。透過桑基圖透明化供餐供應鏈，實現事故時的精準溯源；整合地理空間稽查數據，針對校園該區餐飲風險進行視覺化監控。結合自製風險指標公式，量化各區危險程度，不僅協助學校防範新興外送風險，更優化政府稽查資源配置，以數據驅動精準治理，構建全方位食安預警網。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/OG-Matcha/Taipei-City-Dashboard/tree/matcha-dev' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/OG-Matcha/Taipei-City-Dashboard/tree/matcha-dev</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>新北食品查驗地圖，可查地點和不合格數<br/><a href='https://fsmc.ntpc.gov.tw/DigitalMap/PublicWebsite' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://fsmc.ntpc.gov.tw/DigitalMap/PublicWebsite</a></li><li>台北食品查驗地圖，可查地點和不合格數<br/><a href='https://imap.health.gov.taipei/App_Prog/Analysis1.aspx' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://imap.health.gov.taipei/App_Prog/Analysis1.aspx</a></li><li>教育部校園食材登錄平台2.0<br/><a href='https://fatraceschool.k12ea.gov.tw/frontend/search.html' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://fatraceschool.k12ea.gov.tw/frontend/search.html</a></li><li>臺北市登記工廠分布圖及基本資料<br/><a href='https://data.gov.tw/dataset/121252' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/121252</a></li><li>新北市食品工廠清冊<br/><a href='https://data.gov.tw/dataset/127936' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/127936</a></li><li>第二級品管驗證通過之食品業者名單資料集<br/><a href='https://data.gov.tw/dataset/48579' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/48579</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%89%E5%90%8D.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作",
+                                    "team_name": "亂寫都隊",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_40%E4%BA%82%E5%AF%AB%E9%83%BD%E9%9A%8A.jpg",
+                                    "team_members": "國立陽明交通大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "永續環境"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本提案呼應SDG 6、11、14、15，建置永續發展儀表板，整合噪音、水質、空氣污染與碳排放資料，疊合動植物分布，辨識生態風險熱區，提升公眾環境意識，並協助政府檢視環境保護成效，推動生態永續。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/shangjung1012/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/shangjung1012/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>臺北市環境及交通音量監測站地點<br/><a href='https://data.taipei/dataset/detail?id=e2f4ebf5-bffa-40af-8056-383893721731' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=e2f4ebf5-bffa-40af-8056-383893721731</a></li><li>臺北市娛樂營業場所噪音告發案件點位資訊<br/><a href='https://data.taipei/dataset/detail?id=b54c0689-61b4-4877-90c0-df0e0586c7dc' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=b54c0689-61b4-4877-90c0-df0e0586c7dc</a></li><li>新北市環境及交通噪音監測站地點<br/><a href='https://data.ntpc.gov.tw/datasets/cad88b80-8230-48d4-a8d4-ce478954fddf' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/cad88b80-8230-48d4-a8d4-ce478954fddf</a></li><li>新北市環境及交通噪音監測站地點<br/><a href='https://data.ntpc.gov.tw/datasets/cad88b80-8230-48d4-a8d4-ce478954fddf' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/cad88b80-8230-48d4-a8d4-ce478954fddf</a></li><li>臺北市都市計畫使用分區圖<br/><a href='https://data.taipei/dataset/detail?id=3bab0a01-7936-4218-8cb5-f74dfcb43dda' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=3bab0a01-7936-4218-8cb5-f74dfcb43dda</a></li><li>新北市都市計畫土地使用分區及範圍圖<br/><a href='https://data.ntpc.gov.tw/datasets/fe26e0a5-54c2-4876-bbc7-150243c048f5' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/fe26e0a5-54c2-4876-bbc7-150243c048f5</a></li><li>河川水質監測資料<br/><a href='https://data.moenv.gov.tw/dataset/detail/WQX_P_01?utm_source=chatgpt.com&fbclid=IwY2xjawRix2FleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEe4OSj7y3tdTBqBahXT9LLxiuYEyVYMD49n2e24cnoRYoyoqi2iuHKZE9j-rQ_aem_qBpPRrBIBB9BAsQgtkWPpg' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.moenv.gov.tw/dataset/detail/WQX_P_01?utm_source=chatgpt.com&fbclid=IwY2xjawRix2FleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEe4OSj7y3tdTBqBahXT9LLxiuYEyVYMD49n2e24cnoRYoyoqi2iuHKZE9j-rQ_aem_qBpPRrBIBB9BAsQgtkWPpg</a></li><li>河川河道<br/><a href='https://data.gov.tw/dataset/25781?fbclid=IwY2xjawRix2tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeSD8zqWTbUWogH0LcG-8pkkVYjFizHgxsLhe5YnDUEPcQ7gSG_DOno_Li32g_aem_eF0oUz8uYzUHCeA2aS2b7g' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/25781?fbclid=IwY2xjawRix2tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeSD8zqWTbUWogH0LcG-8pkkVYjFizHgxsLhe5YnDUEPcQ7gSG_DOno_Li32g_aem_eF0oUz8uYzUHCeA2aS2b7g</a></li><li>臺北市河濱生態鳥類<br/><a href='https://data.taipei/dataset/detail?id=8eea1e09-055b-4b3d-9472-b96744b1727e' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=8eea1e09-055b-4b3d-9472-b96744b1727e</a></li><li>臺北市河濱生態蝴蝶<br/><a href='https://data.taipei/dataset/detail?id=679ae4e4-0fc2-4ac5-8db0-bab87990ada4' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=679ae4e4-0fc2-4ac5-8db0-bab87990ada4</a></li><li>臺北市河濱生態爬蟲-**https://data.taipei/dataset/detail?id=320ee03a-7944-4033-9317-1373fa8615f8</li><li>臺北市生物多樣性<br/><a href='https://data.taipei/dataset/detail?id=084c5d95-7e9f-49ad-8ab9-d741a9564189&fbclid=IwY2xjawRinvZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeiPAU_VOCfXNRe6loWHCjISWqHvPb6tHXAl6_m34Qffc09Snia4KH6wrA1uU_aem_7gni939GBSGkxKdQYa5d8Q' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=084c5d95-7e9f-49ad-8ab9-d741a9564189&fbclid=IwY2xjawRinvZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeiPAU_VOCfXNRe6loWHCjISWqHvPb6tHXAl6_m34Qffc09Snia4KH6wrA1uU_aem_7gni939GBSGkxKdQYa5d8Q</a></li><li>臺北市河濱生態灌木<br/><a href='https://data.taipei/dataset/detail?id=831a3fbc-ff4a-4acd-849b-d114644b7fce' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=831a3fbc-ff4a-4acd-849b-d114644b7fce</a></li><li>臺北市河濱生態棕櫚<br/><a href='https://data.taipei/dataset/detail?id=6e3a3230-2241-4dec-b25a-2458eb0988f7' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=6e3a3230-2241-4dec-b25a-2458eb0988f7</a></li><li>臺北市河濱生態喬木<br/><a href='https://data.taipei/dataset/detail?id=34800b67-b5a5-4ce9-9892-eb0945b82644' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=34800b67-b5a5-4ce9-9892-eb0945b82644</a></li><li>焚化廠空污監測資料<br/><a href='https://data.moenv.gov.tw/dataset/detail/FAC_S_04' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.moenv.gov.tw/dataset/detail/FAC_S_04</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_40%E4%BA%82%E5%AF%AB%E9%83%BD%E9%9A%8A.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作",
+                                    "team_name": "三隻楊游過何",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_15%E4%B8%89%E9%9A%BB%E6%A5%8A%E6%B8%B8%E9%81%8E%E4%BD%95.jpg",
+                                    "team_members": "國立中央大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "永續環境"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "整合污染源（發電廠/工業區）、即時氣象風場、3D建物與綠地數據，視覺化模擬廢氣擴散路徑與綠林阻擋效益。藉此提供市民日常防禦（如關窗避險）指引，並輔助政府於風向不利住宅區時，進行精準的動態減排管制。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/XiaoWang1212/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/XiaoWang1212/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>新北市公園<br/><a href='https://data.ntpc.gov.tw/datasets/5fe3a136-29cc-4695-a17e-6636a32c3342' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/5fe3a136-29cc-4695-a17e-6636a32c3342</a></li><li>新北市行道樹資料<br/><a href='https://data.ntpc.gov.tw/datasets/57f99afb-94e2-4e67-9de7-961f5e9a9e18' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/57f99afb-94e2-4e67-9de7-961f5e9a9e18</a></li><li>新北市重要地標資訊<br/><a href='https://data.ntpc.gov.tw/datasets/6dcff24a-838c-40fb-a9df-f1160afafe84' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/6dcff24a-838c-40fb-a9df-f1160afafe84</a></li><li>台北市行道樹分佈圖<br/><a href='https://data.nat.gov.tw/dataset/146760' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.nat.gov.tw/dataset/146760</a></li><li>臺北市各級學校分布圖(含國小.國中.高中職.特教學校.市立大專院校)<br/><a href='https://data.gov.tw/dataset/121225' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/121225</a></li><li>臺北市公園基本資料<br/><a href='https://data.taipei/dataset/detail?id=ea732fb5-4bec-4be7-93f2-8ab91e74a6c6' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=ea732fb5-4bec-4be7-93f2-8ab91e74a6c6</a></li><li>水力火力發電廠資料<br/><a href='https://data.gov.tw/dataset/8934' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/8934</a></li><li>火化廠資料<br/><a href='https://www.farewell.com.tw/crematorium-information/' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.farewell.com.tw/crematorium-information/</a></li><li>雙北焚化爐資料<br/><a href='https://data.moenv.gov.tw/dataset/detail/FAC_S_01' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.moenv.gov.tw/dataset/detail/FAC_S_01</a></li><li>臺北市都市計畫土地使用分區面積https://data.taipei/dataset/detail?id=7e6081b5-e9e2-4956-b49e-7f27ea8895f6</li><li>臺北市都市計畫使用分區圖<br/><a href='https://data.taipei/dataset/detail?id=3bab0a01-7936-4218-8cb5-f74dfcb43dda' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=3bab0a01-7936-4218-8cb5-f74dfcb43dda</a></li><li>新北市都市計畫土地使用分區及範圍圖<br/><a href='https://data.ntpc.gov.tw/datasets/fe26e0a5-54c2-4876-bbc7-150243c048f5' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/fe26e0a5-54c2-4876-bbc7-150243c048f5</a></li><li>氣象觀測站-全測站逐時氣象資料<br/><a href='https://opendata.cwa.gov.tw/dataset/observation/O-A0001-001' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/observation/O-A0001-001</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_15%E4%B8%89%E9%9A%BB%E6%A5%8A%E6%B8%B8%E9%81%8E%E4%BD%95.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "ranking": "佳作",
+                                    "team_name": "用AI的人喊+1",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_24%E7%94%A8AI%E7%9A%84%E4%BA%BA%E5%96%8A%2B1.jpg",
+                                    "team_members": "日辰資訊股份有限公司\n緯來電視網股份有限公司\nAmo阿默典藏蛋糕\n桓基科技股份有限公司\n國立中央大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "永續環境"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "以「綠色惜食」為切入點，本組打造儀表板呈現政府永續推動現況，並引導民眾從日常飲食選擇實踐環保行動，最終透過成果視覺化，提升參與感與成就感，促進永續意識落實。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/pingshian0131/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/pingshian0131/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>台北市環保餐廳<br/><a href='https://data.taipei/api/frontstage/tpeod/dataset.view?id=845818d9-c432-44b4-85dd-03d71bd867b2' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/api/frontstage/tpeod/dataset.view?id=845818d9-c432-44b4-85dd-03d71bd867b2</a></li><li>新北市環保餐廳<br/><a href='https://data.ntpc.gov.tw/datasets/e90d14f8-5995-4ebb-af19-8f8fd7d396c8' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/e90d14f8-5995-4ebb-af19-8f8fd7d396c8</a></li><li>台北市綠色商店<br/><a href='https://data.taipei/dataset/detail?id=1756cb64-0066-444a-a323-9f3b5a961045' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=1756cb64-0066-444a-a323-9f3b5a961045</a></li><li>新北市綠色商店<br/><a href='https://data.ntpc.gov.tw/datasets/6ccd0274-0c09-43b0-98fc-4d5222a71e8b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/6ccd0274-0c09-43b0-98fc-4d5222a71e8b</a></li><li>臺北市政府實物銀行<br/><a href='https://data.taipei/dataset/detail?id=3fbc79e5-0138-4c89-8c47-39feddbd6d3f' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=3fbc79e5-0138-4c89-8c47-39feddbd6d3f</a></li><li>新北市實物銀行分行及領用站<br/><a href='https://data.ntpc.gov.tw/datasets/1c1d0066-a4e7-4753-b8bc-d7728d5f3e04' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.ntpc.gov.tw/datasets/1c1d0066-a4e7-4753-b8bc-d7728d5f3e04</a></li><li>一般廢棄物清理情況資料<br/><a href='https://data.gov.tw/dataset/89022' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.gov.tw/dataset/89022</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C_24%E7%94%A8AI%E7%9A%84%E4%BA%BA%E5%96%8A%2B1.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "more_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "title": "0411 工作坊",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0411_%E5%B7%A5%E4%BD%9C%E5%9D%8A/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1NtJKMQn0fPm1Qgps9mA9wGrp4MM5MVTp",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0411_%E5%B7%A5%E4%BD%9C%E5%9D%8A/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0411_%E5%B7%A5%E4%BD%9C%E5%9D%8A/20260411%E5%B7%A5%E4%BD%9C%E5%9D%8A%40%E7%B2%BE%E9%81%B8-123.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0411_%E5%B7%A5%E4%BD%9C%E5%9D%8A/20260411%E5%B7%A5%E4%BD%9C%E5%9D%8A%40%E7%B2%BE%E9%81%B8-14.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0411_%E5%B7%A5%E4%BD%9C%E5%9D%8A/20260411%E5%B7%A5%E4%BD%9C%E5%9D%8A%40%E7%B2%BE%E9%81%B8-22.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "0502 開幕式",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_%E9%96%8B%E5%B9%95%E5%BC%8F/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1bbeob_5V81z4pOjMcsnz7dthTWAszsiN",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_%E9%96%8B%E5%B9%95%E5%BC%8F/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_%E9%96%8B%E5%B9%95%E5%BC%8F/260502%E9%BB%91%E5%AE%A2%E6%9D%BE%40A%20%E5%90%88%E7%85%A7-8.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_%E9%96%8B%E5%B9%95%E5%BC%8F/260502%E9%BB%91%E5%AE%A2%E6%9D%BE%40P%20%E5%90%88%E7%85%A7-026.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_%E9%96%8B%E5%B9%95%E5%BC%8F/260503%E9%BB%91%E5%AE%A2%E6%9D%BE%40A%20%E5%90%88%E7%85%A7-6.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "coding",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_coding/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1LCbPiEa4I8mvhL5X2t4FWnMGdDrzNIim",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_coding/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_coding/260502%E9%BB%91%E5%AE%A2%E6%9D%BE%40P%20Hacking-016.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_coding/260502%E9%BB%91%E5%AE%A2%E6%9D%BE%40P%E7%B2%BE%E9%81%B8-120.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0502_coding/260502%E9%BB%91%E5%AE%A2%E6%9D%BE%40P%E7%B2%BE%E9%81%B8-90.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "0503 閉幕式",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0503_%E9%96%89%E5%B9%95%E5%BC%8F/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1BQOBFbp5W1PdeZduRkc6YQVloQSDSod9",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0503_%E9%96%89%E5%B9%95%E5%BC%8F/%E5%B0%81%E9%9D%A2%E7%85%A7.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0503_%E9%96%89%E5%B9%95%E5%BC%8F/260503%E9%BB%91%E5%AE%A2%E6%9D%BE%40A%E7%B2%BE%E9%81%B8-76.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/0503_%E9%96%89%E5%B9%95%E5%BC%8F/260503%E9%BB%91%E5%AE%A2%E6%9D%BE%40P%20%E9%96%89%E5%B9%95%E5%BC%8F-004.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 1,
+                                    "date": "",
+                                    "title": "2026雙北程式設計節大黑客松【閉幕影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E9%96%89%E5%B9%95.jpg",
+                                    "video_url": "https://www.youtube.com/watch?v=GRTvSNgDPDM"
+                                },
+                                {
+                                    "id": 2,
+                                    "date": "",
+                                    "title": "2026雙北程式設計節大黑客松【精華影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E7%B2%BE%E8%8F%AF.jpg",
+                                    "video_url": "https://www.youtube.com/watch?v=cnQNyGGWbaE"
+                                },
+                                {
+                                    "id": 3,
+                                    "date": "",
+                                    "title": "2026雙北程式設計節大黑客松【全紀錄影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E5%85%A8%E7%B4%80%E9%8C%84.jpg",
+                                    "video_url": "https://www.youtube.com/watch?v=pXOPKKFFRgU"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "在智慧城市與數據驅動時代，創新技術成為推動城市發展與提升市政服務的關鍵。2026這一屆獨特的雙北黑客松將帶領我們探索如何運用開源技術與數據可視化，挑戰傳統思維，實現跨縣市合作，共同創造出更具競爭力的智慧解決方案。\n透過結合創新設計與先進技術，我們期望進一步優化市政服務，推動雙北邁向智慧城市的未來。如有任何疑問，歡迎隨時聯絡我們！\n心動了嗎？ 趕快報名！",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/%E5%A4%A7%E7%B6%B2%E4%B8%BB%E8%A6%96%E8%A6%BA/2026%E5%A4%A7%E7%B6%B1%E4%B8%BB%E8%A6%96%E8%A6%BA.png",
+                            "mobile_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/%E5%B0%8F%E7%B6%B2%E4%B8%BB%E8%A6%96%E8%A6%BA%E5%9C%96%E6%AA%94/2026-spring-mobile.png"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初選",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E6%94%BF%E8%B3%A2-%E7%99%BD%E6%B2%99%E5%B1%AF%E5%AA%BD%E7%A5%96GPS%20APP%E9%96%8B%E7%99%BC%E8%80%85.jpg",
+                                            "name": "吳政賢",
+                                            "corporation": "白沙屯媽祖GPS APP",
+                                            "position": "開發者"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E6%B2%9B%E6%A8%BA-%E5%84%80%E8%A1%A8%E6%9D%BF%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A.jpg",
+                                            "name": "吳沛樺",
+                                            "corporation": "儀表板開發團隊",
+                                            "position": ""
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%94%A1%E8%B1%AA%E8%BB%92-%E5%84%80%E8%A1%A8%E6%9D%BF%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A.jpg",
+                                            "name": "蔡豪軒",
+                                            "corporation": "儀表板開發團隊",
+                                            "position": ""
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E4%B8%80%E6%99%89-SITCON%20%E5%AD%B8%E7%94%9F%E8%A8%88%E7%AE%97%E6%A9%9F%E5%B9%B4%E6%9C%83%20%E7%99%BC%E8%B5%B7%E4%BA%BA.jpg",
+                                            "name": "黃一晉",
+                                            "corporation": "SITCON 學生計算機年會",
+                                            "position": "發起人"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決選",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%B6%99%E5%BC%8F%E9%9A%86-%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E5%B1%80%E9%95%B7.jpg",
+                                            "name": "趙式隆",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "局長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%99%B3%E5%AF%8C%E6%B7%BB-%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E4%B8%AD%E5%BF%83%E4%B8%BB%E4%BB%BB.jpg",
+                                            "name": "陳富添",
+                                            "corporation": "新北市政府資訊中心",
+                                            "position": "主任"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E6%95%AC%E7%BE%A4-%E5%9C%8B%E7%AB%8B%E6%88%90%E5%8A%9F%E5%A4%A7%E5%AD%B8%E8%B3%87%E8%A8%8A%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB%E6%95%99%E6%8E%88.jpg",
+                                            "name": "黃敬群",
+                                            "corporation": "國立成功大學資訊工程學系",
+                                            "position": "教授"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E8%A9%95%E5%AF%A9%E5%9C%96/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%91%A8%E7%A7%89%E8%BC%9D-%E5%8F%B0%E7%81%A3%E6%99%BA%E6%85%A7%E9%9B%B2%E7%AB%AF%E6%9C%8D%E5%8B%99%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-AI%E8%B6%85%E7%AE%97%E5%8A%A0%E9%80%9F%E5%99%A8%E8%A8%88%E7%95%AB%E5%9F%B7%E8%A1%8C%E9%95%B7.jpg",
+                                            "name": "周秉輝",
+                                            "corporation": "台灣智慧雲端服務股份有限公司",
+                                            "position": "AI超算加速器計畫執行長"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "list": [
+                            {
+                                "id": "online",
+                                "schedule_name": "線上說明會 03/13",
+                                "schedule_sub_name": "2026年03月13日 星期五",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": "outside_link"
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程(線上辦理)"
+                                    },
+                                    {
+                                        "name": "主講人"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "10:00-10:30",
+                                        "col2": "報到",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "10:30-10:35",
+                                        "col2": "開場",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "10:35-11:05",
+                                        "col2": "競賽須知\n臺北城市儀表板使用技術說明",
+                                        "col3": "活動執行團隊\n開發團隊"
+                                    },
+                                    {
+                                        "col1": "11:05-11:20",
+                                        "col2": "獲獎團隊分享",
+                                        "col3": "2025獲獎團隊\n第一名 亂寫都隊"
+                                    },
+                                    {
+                                        "col1": "11:20-12:00",
+                                        "col2": "交流時間",
+                                        "col3": "參加者"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "workshop",
+                                "schedule_name": "工作坊 04/11",
+                                "schedule_sub_name": "2026年04月11日 星期六",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "活動內容"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "09:30-10:00",
+                                        "col2": "報到"
+                                    },
+                                    {
+                                        "col1": "10:00-10:10",
+                                        "col2": "工作坊開場"
+                                    },
+                                    {
+                                        "col1": "10:10-10:15",
+                                        "col2": "大合照"
+                                    },
+                                    {
+                                        "col1": "10:15-10:40",
+                                        "col2": "2026雙北程式設計節-城市儀表板大黑客松\n競賽規則說明"
+                                    },
+                                    {
+                                        "col1": "10:40-11:40",
+                                        "col2": "開發技術介紹與主題說明\nQ&A時間"
+                                    },
+                                    {
+                                        "col1": "11:40-13:00",
+                                        "col2": "午餐暨資訊倫理宣導"
+                                    },
+                                    {
+                                        "col1": "13:00-16:00",
+                                        "col2": "選手面談\nCoding 診療室"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 05/02 - 05/03",
+                                "schedule_sub_name": "2026年05月02日 星期六 ~ 2026年05月03日 星期日\n新北市政府大樓（新北市板橋區中山路一段 161 號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "05/02(六)",
+                                        "col2": "09:00-09:30",
+                                        "col3": "報到(詳Email)"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "09:30-10:00",
+                                        "col3": "開幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00-24:00",
+                                        "col3": "Hacking及Coding診療室"
+                                    },
+                                    {
+                                        "col1": "05/03(日)",
+                                        "col2": "00:00-11:00",
+                                        "col3": "Hacking及Coding診療室"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "11:00-13:10",
+                                        "col3": "初選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:10-13:40",
+                                        "col3": "公告入選決賽隊伍"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:40-16:30",
+                                        "col3": "決選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "16:30-17:00",
+                                        "col3": "評審討論"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00-17:30",
+                                        "col3": "頒獎與閉幕式"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/SITCON%20logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 1,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E5%8F%B0%E5%A4%A7logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 2,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E5%8F%B0%E7%A7%91%E5%A4%A7GDG%20logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 3,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E5%8F%B0%E7%A7%91%E5%A4%A7logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 4,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E5%A4%A7%E5%90%8Clogo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 5,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E5%B8%AB%E5%A4%A7logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            },
+                            {
+                                "id": 6,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E6%A2%85%E7%AB%B9%E9%BB%91%E5%AE%A2%E6%9D%BE_0%E5%8E%BB%E8%83%8C%E7%99%BD_0_0.png"
+                            },
+                            {
+                                "id": 7,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E6%B7%A1%E6%B1%9Flogo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0.png"
+                            },
+                            {
+                                "id": 8,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2026%20spring/2026%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%9C%96%E6%AA%94/%E8%BC%94%E5%A4%A7logo_0%E7%99%BD%E5%8E%BB%E8%83%8C_0_0.png"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "新北市政府資訊中心",
+                            "臺北市政府資訊局"
+                        ],
+                        "co_organizer": [
+                            "台灣智慧雲端服務股份有限公司"
+                        ],
+                        "implementer": [],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": "https://github.com/taipei-doit/Taipei-City-Dashboard"
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": "https://www.youtube.com/@Code-FestTaipei"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "2025-spring",
                     "name": "2025.春季雙北城市儀表版大黑客松",
                     "date": "2025-05-31~2025-06-01",

@@ -33,7 +33,7 @@ const props = defineProps<{
               </span>
             </div>
             <div
-              v-if="props.currentActivity?.footer?.co_organizer"
+              v-if="props.currentActivity?.footer?.co_organizer?.length"
               class="grid lg:grid-cols-1 grid-cols-2 gap-x-4 mt-4 lg:mt-0"
             >
               <span class="col-span-2 lg:col-span-1 text-center lg:text-left mb-4"
@@ -54,7 +54,7 @@ const props = defineProps<{
               </span>
             </div>
             <div
-              v-if="props.currentActivity?.footer?.implementer"
+              v-if="props.currentActivity?.footer?.implementer?.length"
               class="grid lg:grid-cols-1 grid-cols-2 gap-x-4 mt-4 lg:mt-0"
             >
               <span class="col-span-2 lg:col-span-1 text-center lg:text-left mb-4"
