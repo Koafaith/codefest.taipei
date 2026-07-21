@@ -10,6 +10,13 @@
                 "link": ""
             },
             {
+                "name": "2026臺北生成藝術節",
+                "icon_type": "smile",
+                "date": "08/29",
+                "available": true,
+                "link": "https://genartfest.taipei"
+            },
+            {
                 "name": "2026雙北程式設計節",
                 "icon_type": "smile",
                 "date": "05/02-05/03",
@@ -3107,10 +3114,17 @@
             ],
             "taipei_art_fest": [
                 {
+                    "id": "2025-art-fest",
+                    "name": "2025.臺北生成藝術節",
+                    "date": "",
+                    "link": "https://youtu.be/FDacpTyPMUY?si=ZrrYal2rwJrGum4D",
+                    "available": true
+                },
+                {
                     "id": "2024-art-fest",
                     "name": "2024.臺北生成藝術節",
                     "date": "2024-09-07~2024-09-08",
-                    "link": "https://drive.google.com/file/d/1Kt0fULr17L1Cbb3lrOW_nFlDBZcYJTNh/view",
+                    "link": "https://youtu.be/0HM8zWogHeA?si=9N-wbRqersHbOZAN",
                     "available": true
                 }
             ]
