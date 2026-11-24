@@ -70,6 +70,7 @@ watch(
               {{ props.activePhoto?.title }}
             </DialogTitle>
             <a
+              v-if="props.activePhoto?.more_photos_url"
               :href="props.activePhoto?.more_photos_url"
               target="_blank"
               class="text-primary-500 lg:flex hidden items-center"
@@ -159,6 +160,7 @@ watch(
               </Swiper>
             </div>
             <a
+              v-if="props.activePhoto?.more_photos_url"
               :href="props.activePhoto?.more_photos_url"
               target="_blank"
               class="text-primary-500 lg:hidden flex items-center justify-end"

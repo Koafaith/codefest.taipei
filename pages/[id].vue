@@ -703,7 +703,7 @@ onUnmounted(() => {
                       <DisclosurePanel>
                         <div class="relative w-full py-10 pb-4 lg:py-10">
                           <!-- desktop -->
-                          <div class="lg:flex hidden">
+                          <div class="lg:flex flex-wrap hidden">
                             <div
                               v-for="judge in item.list"
                               :key="judge.id"
